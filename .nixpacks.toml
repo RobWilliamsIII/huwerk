@@ -1,0 +1,5 @@
+[phases]
+setup = "sdkmanager 'platform-tools' 'platforms;android-29'"
+
+[variables]
+ANDROID_HOME = "/root/.android/sdk"
