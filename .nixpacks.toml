@@ -3,8 +3,9 @@ setup = """
 mkdir -p /root/.android/sdk
 yes | sdkmanager --licenses
 sdkmanager --install 'platform-tools' 'platforms;android-29' 'build-tools;29.0.3'
+echo "SDK Installation complete"
+ls /root/.android/sdk
 """
 
 [variables]
 ANDROID_HOME = "/root/.android/sdk"
-#test
