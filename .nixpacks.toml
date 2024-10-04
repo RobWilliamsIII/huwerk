@@ -7,3 +7,4 @@ sdkmanager --install 'platform-tools' 'platforms;android-29' 'build-tools;29.0.3
 
 [variables]
 ANDROID_HOME = "/root/.android/sdk"
+#test
