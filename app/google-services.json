@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848641518232",
+    "project_id": "huwerk-c9241",
+    "storage_bucket": "huwerk-c9241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848641518232:android:9c9c8737d75626d3283eed",
+        "android_client_info": {
+          "package_name": "com.example.huwerk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu46y1AgTgGRZRErvhRZqYtcWsrOYmft0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
