@@ -1,7 +1,9 @@
 [phases]
 setup = """
-sdkmanager --install 'platform-tools' 'platforms;android-29' 'build-tools;29.0.3' 'emulator' 'system-images;android-29;default;x86_64'
+mkdir -p /root/.android/sdk
+yes | sdkmanager --licenses
+sdkmanager --install 'platform-tools' 'platforms;android-29' 'build-tools;29.0.3'
 """
+
 [variables]
 ANDROID_HOME = "/root/.android/sdk"
-#test
